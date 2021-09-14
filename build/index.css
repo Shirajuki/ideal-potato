@@ -1,6 +1,12 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
-body{font-family:Helvetica Neue,sans-serif;text-align:center}body button{padding:10px}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+body button {
+  padding: 10px;
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguY3NzIiwibWFwcGluZ3MiOiI7OztBQUFBLEtBQ0ksc0NBQ0EsaUJBQ0osQ0FBSSxZQUNJLFlBRVIsQyIsInNvdXJjZXMiOlsid2VicGFjazovL3RvcGRvd24tcHJvdG8vLi9zcmMvc3R5bGUuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcbiAgICBmb250LWZhbWlseTogJ0hlbHZldGljYSBOZXVlJywgc2Fucy1zZXJpZjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYnV0dG9uIHtcbiAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICB9XG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguY3NzIiwibWFwcGluZ3MiOiI7OztBQUFBO0VBQ0k7RUFDQTtBQUNKO0FBQUk7RUFDSTtBQUVSLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90b3Bkb3duLXByb3RvLy4vc3JjL3N0eWxlLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgZm9udC1mYW1pbHk6ICdIZWx2ZXRpY2EgTmV1ZScsIHNhbnMtc2VyaWY7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGJ1dHRvbiB7XG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgfVxufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/
