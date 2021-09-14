@@ -1,10 +1,7 @@
 import printMe from "./print";
 import "./style.scss";
 
-const hello = (name) => {
-  console.log(`hello ${name}`);
-};
-function component() {
+const component = () => {
   const element = document.createElement("div");
   const btn = document.createElement("button");
 
@@ -12,11 +9,10 @@ function component() {
   btn.innerHTML = "Click me and check the console!";
   btn.onclick = () => {
     printMe();
-    hello("juki");
   };
 
   element.appendChild(btn);
   return element;
-}
+};
 
 document.body.appendChild(component());
