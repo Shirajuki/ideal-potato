@@ -1,24 +1,18 @@
-import printMe from "./print";
+// import printMe from "./print";
+import Game from "./game";
 import "./style.scss";
 import "./modules";
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-console.log(ctx);
+const game = new Game(ctx);
+// Set canvas size
+const { innerWidth: vw, innerHeight: vh } = window;
+canvas.style.width = Math.floor(vh / 3);
+canvas.style.height = Math.floor(vw / 3);
+canvas.width = Math.floor(game.width);
+canvas.height = Math.floor(game.height);
 
-const component = () => {
-  const element = document.createElement("div");
-  const btn = document.createElement("button");
-
-  element.innerHTML = ["Hello", "webpack"].join(" ");
-  btn.innerHTML = "Click me and check the console!";
-  btn.onclick = () => {
-    printMe();
-  };
-
-  element.appendChild(btn);
-  return element;
-};
-
-document.body.appendChild(component());
+window.game = game;
+window.requestAnimationFrame(() => game.draw());

@@ -1,6 +1,3 @@
-import interaction from './interaction';
-import './player';
+import interaction from "./interaction";
 
-export default [
-  interaction,
-];
+export default [interaction];
